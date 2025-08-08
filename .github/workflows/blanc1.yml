@@ -1,8 +1,13 @@
-name: hello-world
-on: make say-hello
+name: blanc1
+
+on: [push]
+
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: my-step
-        run: print "Hello World!"
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: List files
+      run: make say-hello
