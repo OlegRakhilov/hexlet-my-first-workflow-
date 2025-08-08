@@ -1,7 +1,7 @@
-name: hello-world
+name: blanc1.yml
 on: push
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
