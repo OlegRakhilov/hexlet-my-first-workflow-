@@ -1,4 +1,4 @@
-name: blanc1
+name: hello-world
 on: make say-hello
 jobs:
   my-job:
