@@ -1,5 +1,4 @@
-name: blanc1
-
+name: Example blanc1
 on: [push]
 
 jobs:
